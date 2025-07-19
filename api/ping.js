@@ -2,7 +2,6 @@ export default async function handler(req, res) {
   const urls = [
     "https://twitter-us-airline-sentiment-dashboard.streamlit.app/",
     "https://gazal-portfolio.streamlit.app/",
-    // Add more as needed
   ];
 
   const results = await Promise.all(
