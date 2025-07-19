@@ -4,12 +4,5 @@
     "api/ping.js": {
       "runtime": "edge"
     }
-  },
-  "cron": [
-    {
-      "path": "/api/ping",
-      "schedule": "*/45 * * * *",
-      "timezone": "Asia/Kolkata"
-    }
-  ]
+  }
 }
