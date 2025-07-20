@@ -1,8 +1,8 @@
 {
-  "crons": [
-    {
-      "path": "/api/ping",
-      "schedule": "40 * * * *"
+  "functions": {
+    "api/ping.js": {
+      "runtime": "nodejs18.x",
+      "schedule": "@hourly"
     }
-  ]
+  }
 }
